@@ -10,5 +10,5 @@ This project was created by **Pierre-Yves Ricau** aka [Piwaï](http://piwai.info
 
 The idea comes from an [interesting article](http://thecodersbreakfast.net/index.php?post/2012/08/26/equipez-vos-d%C3%A9veloppeurs) by Olivier Croisier.
 
-![](screenshot1.png)
-![](screenshot2.png)
+![](https://raw.github.com/pyricau/waste-o-meter/master/screenshot1.png)
+![](https://raw.github.com/pyricau/waste-o-meter/master/screenshot2.png)
