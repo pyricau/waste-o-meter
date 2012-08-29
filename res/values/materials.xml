@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- materialNames items are mapped to materialPrices items -->
+    <string-array name="materialNames">
+        <item>8 GB of RAM</item>
+        <item>a 22\" Full HD Monitor</item>
+        <item>a 180 GB SSD Drive </item>
+        <item>a quad-core processor</item>
+        <item>an integration server</item>
+    </string-array>
+
+    <integer-array name="materialPrices">
+        <item>84</item>
+        <item>126</item>
+        <item>168</item>
+        <item>336</item>
+        <item>840</item>
+    </integer-array>
+
+</resources>

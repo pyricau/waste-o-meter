@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Le Gachômètre</string>
+    <string name="share_with">Partager via</string>
+    <string name="share">Partager</string>
+    <string name="cost_per_day_title">JE SUIS FACTURÉ</string>
+    <string name="cost_per_minute_label_format">"<![CDATA[€ / jour (soit <font color="#33b5e5"><b>%.2f € / min</b></font>)]]></string>
+    <string name="lost_minutes_per_day_title">"J'ATTENDS MA MACHINE"</string>
+    <string name="lost_minutes_per_day_label">minutes par jour</string>
+    <string name="working_days_title_format">"<![CDATA[EN <b>%d</b> JOURS DE TRAVAIL]]>"</string>
+    <string name="total_cost_title_format">"<![CDATA[MA MACHINE GÂCHE <b>%.0f€</b>]]>"</string>
+    <string name="material_start">"Soit "</string>
+    <string name="material_start_share">"soit "</string>
+    <string name="material_separator">", "</string>
+    <string name="material_last_separator">" et "</string>
+    <string name="material_format" formatted="false">"<![CDATA[<font color="#33b5e5"><b>%s</b></font> (%d€)]]>"</string>
+    <string name="material_format_share" formatted="false">"%s (%d€)"</string>
+    <string name="share_format" formatted="false">"En %d jours de travail ma machine gâche %.0f€, "</string>
+    
+
+</resources>

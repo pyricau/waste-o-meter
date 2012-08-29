@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".TimeIsMoneyActivity" >
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/share" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/shareButton" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/costPerDayTitle"
+                style="@style/IntroLabel"
+                android:text="@string/cost_per_day_title" />
+
+            <EditText
+                android:id="@+id/costPerDayInput"
+                style="@style/NumberInput"
+                android:layout_below="@id/costPerDayTitle"
+                android:hint="400"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/costPerDayLabel"
+                style="@style/RightLabel"
+                android:layout_below="@id/costPerDayTitle"
+                android:layout_toRightOf="@id/costPerDayInput" />
+
+            <TextView
+                android:id="@+id/lostMinutesPerDayTitle"
+                style="@style/IntroLabel"
+                android:layout_below="@id/costPerDayLabel"
+                android:text="@string/lost_minutes_per_day_title" />
+
+            <EditText
+                android:id="@+id/lostMinutesPerDayInput"
+                style="@style/NumberInput"
+                android:layout_below="@id/lostMinutesPerDayTitle"
+                android:hint="10"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/lostMinutesPerDayLabel"
+                style="@style/RightLabel"
+                android:layout_below="@id/lostMinutesPerDayTitle"
+                android:layout_toRightOf="@id/lostMinutesPerDayInput"
+                android:text="@string/lost_minutes_per_day_label" />
+
+            <TextView
+                android:id="@+id/workingDaysTitle"
+                style="@style/IntroLabel"
+                android:layout_below="@id/lostMinutesPerDayInput" />
+
+            <SeekBar
+                android:id="@+id/workingDaysInput"
+                style="@style/SeekbarInput"
+                android:layout_below="@id/workingDaysTitle"
+                android:max="199" />
+
+            <TextView
+                android:id="@+id/materialCostsTitle"
+                style="@style/IntroLabel"
+                android:layout_below="@id/workingDaysInput" />
+
+            <TextView
+                android:id="@+id/materialCostsLabel"
+                style="@style/RightLabel"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/materialCostsTitle"
+                android:layout_marginLeft="16dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

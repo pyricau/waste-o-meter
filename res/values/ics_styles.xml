@@ -1,0 +1,93 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Widget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+    <style name="Widget.Holo" parent="Widget"></style>
+
+    <style name="Widget.Holo.Light" parent="Widget.Holo"></style>
+
+    <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <!-- <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item> -->
+        <item name="android:textColor">@color/primary_text_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.TextView" parent="@android:style/Widget.TextView"></style>
+
+    <style name="Widget.Holo.EditText" parent="@android:style/Widget.EditText"></style>
+
+    <style name="Widget.Holo.Light.EditText" parent="Widget.Holo.EditText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:background">@drawable/edit_text_holo_light</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Light.Widget" parent="@android:style/TextAppearance.Widget"></style>
+
+    <style name="TextAppearance.Holo.Light.Widget.Button"></style>
+
+    <style name="TextAppearance.Holo.Light" parent="TextAppearance.Holo"></style>
+
+    <style name="TextAppearance.Holo" parent="@android:style/TextAppearance"></style>
+
+    <style name="TextAppearance.Holo.Light.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Medium" parent="android:style/TextAppearance.Medium"></style>
+
+    <style name="TextAppearance.Holo.Light.Medium" parent="TextAppearance.Holo.Medium"></style>
+
+    <style name="TextAppearance.Holo.Light.Medium.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="Theme.Holo.Light" parent="android:style/Theme.Light">
+        <item name="android:textColorPrimary">@color/primary_text_holo_light</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Holo.Light.Widget.Button</item>
+        <item name="android:textAppearance">@style/TextAppearance.Holo.Light</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Holo.Light.Inverse</item>
+        <item name="android:textViewStyle">@style/Widget.Holo.Light.TextView</item>
+        <item name="android:buttonStyle">@style/Widget.Holo.Light.Button</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_holo_dark</item>
+        <!-- <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Holo.Light.Medium.Inverse</item> -->
+        <item name="android:editTextStyle">@style/Widget.Holo.Light.EditText</item>
+        <item name="android:seekBarStyle">@style/Widget.Holo.Light.SeekBar</item>
+        <item name="android:textColorHintInverse">@color/hint_foreground_holo_dark</item>
+        <item name="android:textColorHighlightInverse">@color/highlighted_text_holo_dark</item>
+        <item name="android:textColorLinkInverse">@color/holo_blue_light</item>
+    </style>
+
+    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="bright_foreground_holo_light">@color/background_holo_dark</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="hint_foreground_holo_dark">#808080</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="bright_foreground_holo_dark">@color/background_holo_light</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+
+</resources>

@@ -1,0 +1,4 @@
+.apt_generated
+bin
+gen
+*.apk

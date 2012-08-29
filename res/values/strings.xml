@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">The Waste-O-Meter</string>
+    <string name="share_with">Share with</string>
+    <string name="share">Share</string>
+    <string name="cost_per_day_title">I COST</string>
+    <string name="cost_per_minute_label_format">"<![CDATA[$ / day (that's <font color="#33b5e5"><b>%.2f $ / min</b></font>)]]></string>
+    <string name="lost_minutes_per_day_title">"I WAIT FOR MY COMPUTER"</string>
+    <string name="lost_minutes_per_day_label">minutes a day</string>
+    <string name="working_days_title_format">"<![CDATA[IN <b>%d</b> WORKING DAYS]]>"</string>
+    <string name="total_cost_title_format">"<![CDATA[MY COMPUTER WASTES <b>%.0f$</b>]]>"</string>
+    <string name="material_start">"That's "</string>
+    <string name="material_start_share">"that's "</string>
+    <string name="material_separator">", "</string>
+    <string name="material_last_separator">" and "</string>
+    <string name="material_format" formatted="false">"<![CDATA[<font color="#33b5e5"><b>%s</b></font> (%d$)]]>"</string>
+    <string name="material_format_share" formatted="false">"%s (%d$)"</string>
+    <string name="share_format" formatted="false">"In %d working days my computer wastes %.0f$, "</string>
+
+</resources>
